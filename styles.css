@@ -68,13 +68,14 @@ form{
   flex-direction: column;
   align-items: center;
   background-color: white;
-  width:40%;
+  width:350px;
+  height:550px;
   margin:10px;
   border:solid;
   border-width: 1px;
   border-color: darkgray;
 }
-form h4, p, a, div, button{
+form h4, p, div, button{
   margin:10px;
 }
 
@@ -112,5 +113,24 @@ margin: 10px 0px 10px 0px;
 
 }
 .form-bottom p{
-  font:10px;
+  font-size:10px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  width:80%;
+}
+footer p{
+  margin:0px;
+
+}
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:8px;
+}
+
+.footer-div p{
+  font-size:10px;
 }
