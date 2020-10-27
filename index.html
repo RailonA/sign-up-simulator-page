@@ -35,8 +35,8 @@
 
 
   <div class=" align-form">
-    <img src="./assets/img/logo.png">
-    <section>
+    <img class="main-logo"src="./assets/img/logo.png">
+    <section class="main-logo">
       <img src="./assets/img/mint.png">
       <img src="./assets/img/quick.png">
       <img src="./assets/img/tur.png">
@@ -44,14 +44,17 @@
 
     <form>
       <h3>Create an Intuit account</h3>
-      <p>One account for everything Intuit, including Mint.
+      <p class="form-head1">One account for everything Intuit, including Mint.
         <a href="">Learn more</a></p>
-      <p>Already Have An Account?<a href="">SignIn</a></p>
+      <p class="form-head2">Already Have An Account?<a href="">SignIn</a></p>
 
       <div class="label-section">
         <label class="label-section1">Email<input type="Email"></label>
-        <label class="label-section1">Phone(Recommended)<input type="Phone"></label>
-        <label class="label-section1">Password<input type="password"></label>
+        <div class="label-section2">
+          <label>Phone(Recommended)<input type="Phone"></label>
+          <p class ="label-section-p">Standard call, messaging or data rates may apply.</p>
+        </div>
+        <label class="label-section3">Password<input type="password"></label>
       </div>
 
       <button class="form-button">
