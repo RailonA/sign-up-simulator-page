@@ -37,6 +37,7 @@ body {
   text-align: center;
   background-color: rgb(226, 226, 226);
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -75,7 +76,7 @@ form{
   border-width: 1px;
   border-color: darkgray;
 }
-form h4, p, div, button{
+.form h4, p, div, button{
   margin:10px;
 }
 
@@ -91,6 +92,15 @@ form h4, p, div, button{
   width:80%;
   height:30px;
 }
+.form-button {
+  display: flex;
+  justify-content: space-around;  
+  height: 25px;
+  background-color:rgb(51, 102, 255);
+}
+.form-button p{
+  color: white;
+}
 
 .label-section{
   display: flex;
@@ -103,7 +113,7 @@ form h4, p, div, button{
   display: flex;
   flex-direction: column;
   text-align: start;
-margin: 10px 0px 10px 0px;
+ 
 }
 
 .form-bottom{
@@ -134,3 +144,10 @@ footer p{
 .footer-div p{
   font-size:10px;
 }
+input {
+  height:35px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
