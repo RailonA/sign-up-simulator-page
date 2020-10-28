@@ -197,10 +197,12 @@ form h4 {
   margin: 5%;
   color: rgb(77, 76, 76);
 }
+
 form h6 {
-  font-size:14px;
+  font-size: 14px;
   color: rgb(77, 76, 76);
 }
+
 .form-head1 {
   margin: 2%;
   width: 85%;
@@ -249,58 +251,76 @@ form h6 {
   margin-bottom: 15px;
 }
 
+input {
+  height: 35px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
 .label-section1 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .label-section1 p {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
 .label-section1 input {
   border-width: 1px;
   border: 1px solid;
-  border-color: rgb(187, 187, 187);;
+  border-color: rgb(187, 187, 187);
 }
+
 ::placeholder {
-  color:rgb(187, 187, 187);
+  color: rgb(187, 187, 187);
 }
 
 .label-section2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.label-section2 label{
+
+.label-section2 label {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
 }
+
 .label-section2 div {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .label-section2 input {
   border-width: 1px;
   border: 1px solid;
-  border-color: rgb(187, 187, 187);;
+  border-color: rgb(187, 187, 187);
 }
+
 .label-section3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .label-section3 p {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
 .label-section3 input {
   border-width: 1px;
   border: 1px solid;
-  border-color: rgb(187, 187, 187);;
+  border-color: rgb(187, 187, 187);
 }
-.label-section2-p{
+
+.label-section2-p {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
 .label-section-p {
   font-size: 10px;
 }
@@ -316,7 +336,6 @@ form h6 {
   border-top: transparent;
   font-size: 0.7em;
   justify-content: center;
-
 }
 
 .form-bottom p {
@@ -331,13 +350,13 @@ form h6 {
   font-style: italic;
   width: 85%;
   color: dimgrey;
-  margin: 20px;;
+  margin: 20px;
 }
 
 .form-button1 p {
   font-size: 12px;
-  padding:1px;
-  margin:3px;
+  padding: 1px;
+  margin: 3px;
 }
 
 footer {
@@ -357,15 +376,7 @@ footer {
   font-size: 12px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top:2px; 
+  margin-top: 2px;
   margin-bottom: 2px;
-  color: rgb(38, 38, 38)
-  ;
-}
-
-input {
-  height: 35px;
-  width: 100%;
-  box-sizing: border-box;
-  outline: none;
+  color: rgb(38, 38, 38);
 }
