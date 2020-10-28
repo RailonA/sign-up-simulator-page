@@ -297,7 +297,7 @@ footer p{
   height:35px;
   width:100%;
   box-sizing:border-box;
-  outline: n;
+  outline: none;
   }
 label {
   margin:0px;
