@@ -2,7 +2,7 @@
 
 # Sign-Up-Simulator-page
 
-We made a clone of the Intuit sign up page. The page works best on a 1366x768 resolution and using the firefox browser, assets might look out of place using other browsers or resolutions. It has mock sign up form with labels for email, phone number and password.
+We made a clone of the Intuit sign up page. The page works best on a 1366x768 resolution and using the firefox browser, assets might look out of place using other browsers or resolutions. It has a mock sign-up form with labels for email, phone number, and password.
 
 
 

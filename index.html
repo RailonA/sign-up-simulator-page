@@ -6,12 +6,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" crossorigin="screen-width">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    crossorigin="makes page responsive">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    crossorigin="makes-page-responsive">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" crossorigin="icons">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" crossorigin="css-page">
   <title>FORM-SIGNUP-PAGE</title>
 </head>
 
@@ -25,21 +24,21 @@
       <a href="#">I forgot my User ID or Password</a>
     </div>
 
-    <button class="top-nav-button">
-      <div class="nav-button">
+    <button class="top-nav-button" type="button">
+      <span class="nav-button">
         <i class="fa fa-lock"> </i>
         <p>Sign In</p>
-      </div>
+      </span>
     </button>
   </div>
 
 
   <div class=" align-form">
-    <img class="main-logo" src="./assets/img/logo.png">
+    <img class="main-logo" src="./assets/img/logo.png" alt="main-logo">
     <section class="main-logo">
-      <img src="./assets/img/mint.png">
-      <img src="./assets/img/quick.png">
-      <img src="./assets/img/tur.png">
+      <img src="./assets/img/mint.png" alt="child-logo">
+      <img src="./assets/img/quick.png" alt="child-logo">
+      <img src="./assets/img/tur.png" alt="child-logo">
     </section>
 
     <form>
@@ -51,13 +50,13 @@
       <div class="label-section">
         <label class="label-section1">Email<input type="Email"></label>
         <div class="label-section2">
-          <label>Phone(Recommended)<input type="Phone"></label>
+          <label>Phone(Recommended)<input type="tel"></label>
           <p class="label-section-p">Standard call, messaging or data rates may apply.</p>
         </div>
         <label class="label-section3">Password<input type="password"></label>
       </div>
 
-      <button class="form-button">
+      <button class="form-button" type="button">
         <div class="nav-button">
           <i class="fa fa-lock"> </i>
           <p>Create Account</p>
