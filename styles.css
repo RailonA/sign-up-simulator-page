@@ -53,12 +53,12 @@ article,
 aside,
 canvas,
 details,
-embed, 
+embed,
 figure,
 figcaption,
 footer,
 header,
-hgroup, 
+hgroup,
 menu,
 nav,
 output,
@@ -70,11 +70,10 @@ mark,
 audio,
 video {
   margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -82,7 +81,7 @@ article,
 aside,
 details,
 figcaption,
-figure, 
+figure,
 footer,
 header,
 hgroup,
@@ -107,25 +106,25 @@ body {
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .top-nav {
@@ -136,12 +135,12 @@ table {
 }
 
 .top-nav1 {
-  display : flex;
-  flex-direction : column;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-nav1 a,
- p {
+p {
   font-size: 14px;
   margin-top: 4px;
   margin-right: 10px;
@@ -154,8 +153,7 @@ table {
   height: 100%;
   display: flex;
   flex-direction: row;
-  color:white;
-  display: flex;
+  color: white;
   align-items: center;
 }
 
@@ -165,7 +163,6 @@ table {
   flex-direction: row;
 }
 
-
 .nav-button p {
   margin: 0;
   padding-left: 10px;
@@ -173,10 +170,10 @@ table {
 
 .fa-lock {
   margin: 0;
-  color:white;
+  color: white;
 }
 
-.main-logo{
+.main-logo {
   margin: 10px;
 }
 
@@ -208,33 +205,33 @@ form h3 {
 }
 
 .align-form {
-  display:  flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100%;
-} 
+}
 
 .align-form button {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   width: 85%;
   height: 40px;
 }
 
 .form-button {
-  display : flex;
-  justify-content : space-around;  
+  display: flex;
+  justify-content: space-around;
   margin-top: 15px;
-  margin-bottom: 15px;  padding :0px;
-  width:100%;
+  margin-bottom: 15px;
+  width: 100%;
   background-color: rgb(51, 102, 255);
   border: transparent;
 }
 
 .form-button p {
-  color : white;
+  color: white;
 }
 
 .label-section {
@@ -243,11 +240,13 @@ form h3 {
   text-align: start;
   width: 85%;
   margin-top: 15px;
-  margin-bottom: 15px;}
+  margin-bottom: 15px;
+}
 
-.label-section1  {
+.label-section1 {
   margin-top: 15px;
-  margin-bottom: 15px;}
+  margin-bottom: 15px;
+}
 
 .label-section2 {
   margin-top: 15px;
@@ -260,8 +259,7 @@ form h3 {
 }
 
 .label-section-p {
-font-size: 10px;
-
+  font-size: 10px;
 }
 
 .form-bottom {
@@ -277,8 +275,7 @@ font-size: 10px;
 }
 
 .form-bottom p {
-  display:flex;
-
+  display: flex;
   margin-left: 20px;
   font-size: 10px;
 }
@@ -291,7 +288,7 @@ font-size: 10px;
 }
 
 .form-button1 p {
-  font-size: 10; 
+  font-size: 10;
   margin-top: 5px;
 }
 
