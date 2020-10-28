@@ -263,15 +263,11 @@ input {
   margin-bottom: 10px;
 }
 
-.label-section1 p {
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
 .label-section1 input {
   border-width: 1px;
   border: 1px solid;
   border-color: rgb(187, 187, 187);
+  margin-top:15px;
 }
 
 ::placeholder {
@@ -298,6 +294,8 @@ input {
   border-width: 1px;
   border: 1px solid;
   border-color: rgb(187, 187, 187);
+  margin-top:15px;
+
 }
 
 .label-section3 {
@@ -314,6 +312,8 @@ input {
   border-width: 1px;
   border: 1px solid;
   border-color: rgb(187, 187, 187);
+  margin-top:15px;
+
 }
 
 .label-section2-p {
