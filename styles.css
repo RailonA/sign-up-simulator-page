@@ -89,7 +89,7 @@ align-items: center;
 .nav-button{
   display: flex;
   padding:0px;
-  margin: 0px;
+  margin: 10px;
   flex-direction: row;
 }
 .nav-button p{
@@ -110,13 +110,14 @@ form{
   align-items: center;
   background-color: white;
   width:380px;
-  height:80%;
+  height:600px;
   margin:10px;
   border:solid;
   border-width: 1px;
   border-color: darkgray;
-  border-bottom: transparent;
   margin-bottom: 0px;
+  box-sizing: border-box;
+
 }
 form h3 {
   margin: 5%;
@@ -139,17 +140,20 @@ height:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:80%;
-  height:30px;
+  width:85%;
+  height:40px;
+
 }
+
 .form-button {
   display: flex;
   justify-content: space-around;  
-  margin:0px;
+  margin: 15px 0px 15px 0px;
   padding: 0px;
   width: 100%;
   background-color:rgb(51, 102, 255);
   border: transparent;
+
 }
 
 .form-button p{
@@ -161,17 +165,18 @@ height:100%;
   flex-direction: column;
   text-align: start;
   width:85%;
+  margin: 15px 0px 15px 0px;
 
 }
 .label-section1{
-  margin: 10px 0px 10px 0px;
+  margin: 15px 0px 15px 0px;
 }
 .label-section2{
-  margin: 10px 0px 10px 0px;
+  margin: 15px 0px 15px 0px;
   padding: 0px;
 }
 .label-section3{
-  margin: 10px 0px 10px 0px;
+  margin: 15px 0px 15px 0px;
 }
  
 .label-section-p{
@@ -183,32 +188,39 @@ padding: 0px;
 
 
 .form-bottom{
+  display: flex;
   background-color: rgb(226, 226, 226);
-  margin:0px;
   width:100%;
   border:solid;
   border-width: 1px;
   border-color: darkgray;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width:380px;
   margin-top:0px;
-padding-top:0px;
 border-top:transparent;
+padding: 1.8em;
+font-size: 0.7em;
+}
+.form-bottom p{
+  display: flex;
+  margin:0px;
+  padding:0px;
+  margin-left:20px;
+  font-size:10px;
 }
 .form-button1{
 font-style: italic;
 width: 85%;
-margin: 10px 0px 0px 0px;
+margin: 15px 0px 15px 0px;
 }
-.form-bottom p{
-  font-size:10px;
-}
+.form-button1 p{
+   font-size: 10px;
+  margin: 5px 0px 0px 0px;
+  }
 footer{
   display: flex;
   flex-direction: column;
   width:100%;
+  margin:15px;
 }
 footer p{
   margin:0px;
