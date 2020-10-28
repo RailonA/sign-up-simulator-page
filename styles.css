@@ -137,14 +137,14 @@ table {
 .top-nav1 {
   display: flex;
   flex-direction: column;
-  margin: 0;
   padding: 0;
 }
 
 .top-nav1 a,
 p {
-  font-size: 10px;
+  font-size: 12px;
   margin-right: 10px;
+  margin-bottom: 4px;
 }
 
 .top-nav-button {
@@ -160,7 +160,7 @@ p {
 
 .nav-button {
   display: flex;
-  margin: 10px;
+  margin: 5px;
   flex-direction: row;
 }
 
@@ -184,7 +184,7 @@ form {
   align-items: center;
   background-color: white;
   width: 380px;
-  height: 600px;
+  height: 620px;
   margin: 10px 10px 0 10px;
   border: solid;
   border-bottom: transparent;
@@ -193,10 +193,14 @@ form {
   box-sizing: border-box;
 }
 
-form h3 {
+form h4 {
   margin: 5%;
+  color: rgb(77, 76, 76);
 }
-
+form h6 {
+  font-size:14px;
+  color: rgb(77, 76, 76);
+}
 .form-head1 {
   margin: 2%;
   width: 85%;
@@ -225,7 +229,7 @@ form h3 {
 .form-button {
   display: flex;
   justify-content: space-around;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 15px;
   width: 100%;
   background-color: rgb(51, 102, 255);
@@ -247,32 +251,51 @@ form h3 {
 
 .label-section1 {
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .label-section1 p {
   font-size: 15px;
   margin-bottom: 10px;
 }
+.label-section1 input {
+  border-width: 1px;
+  border: 1px solid;
+  border-color: rgb(187, 187, 187);;
+}
+::placeholder {
+  color:rgb(187, 187, 187);
+}
+
 .label-section2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .label-section2 label{
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
 }
 .label-section2 div {
-  font-size: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
+.label-section2 input {
+  border-width: 1px;
+  border: 1px solid;
+  border-color: rgb(187, 187, 187);;
+}
 .label-section3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .label-section3 p {
   font-size: 15px;
   margin-bottom: 10px;
+}
+.label-section3 input {
+  border-width: 1px;
+  border: 1px solid;
+  border-color: rgb(187, 187, 187);;
 }
 .label-section2-p{
   font-size: 15px;
@@ -289,27 +312,32 @@ form h3 {
   border-width: 1px;
   border-color: darkgray;
   width: 380px;
+  height: 50px;
   border-top: transparent;
-  padding: 1.8em;
   font-size: 0.7em;
+  justify-content: center;
+
 }
 
 .form-bottom p {
   display: flex;
   margin-left: 20px;
   font-size: 10px;
+  color: dimgrey;
+  margin-top: 20px;
 }
 
 .form-button1 {
   font-style: italic;
   width: 85%;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  color: dimgrey;
+  margin: 20px;;
 }
 
 .form-button1 p {
-  font-size: 10;
-  margin-top: 5px;
+  font-size: 12px;
+  padding:1px;
+  margin:3px;
 }
 
 footer {
@@ -323,13 +351,16 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 8px;
 }
 
 .footer-div p {
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-top:2px; 
+  margin-bottom: 2px;
+  color: rgb(38, 38, 38)
+  ;
 }
 
 input {
