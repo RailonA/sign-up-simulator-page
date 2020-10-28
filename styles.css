@@ -169,9 +169,6 @@ table {
   flex-direction : row;
 }
 
-footer p {
-  margin: 0;
-}
 
 .nav-button p {
   margin : 0;
@@ -198,7 +195,6 @@ form {
   border : solid;
   border-width : 1px;
   border-color : darkgray;
-  margin-bottom : 0px;
   box-sizing : border-box;
 }
 
@@ -234,8 +230,8 @@ form h3 {
 .form-button {
   display : flex;
   justify-content : space-around;  
-  margin : 15px 0 15px 0;
-  padding :0px;
+  margin-top: 15px;
+  margin-bottom: 15px;  padding :0px;
   width:100%;
   background-color: rgb(51, 102, 255);
   border: transparent;
@@ -250,26 +246,26 @@ form h3 {
   flex-direction: column;
   text-align: start;
   width: 85%;
-  margin: 15px 0px 15px 0px;
-}
+  margin-top: 15px;
+  margin-bottom: 15px;}
 
 .label-section1  {
-  margin: 15px 0px 15px 0px;
-}
+  margin-top: 15px;
+  margin-bottom: 15px;}
 
 .label-section2 {
-  margin: 15px 0px 15px 0px;
-  padding: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .label-section3 {
-  margin: 15px 0px 15px 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .label-section-p {
 font-size: 10px;
-margin: 0;
-padding: 0;
+
 }
 
 .form-bottom {
@@ -279,7 +275,6 @@ padding: 0;
   border-width: 1px;
   border-color: darkgray;
   width: 380px;
-  margin-top: 0;
   border-top: transparent;
   padding: 1.8em;
   font-size: 0.7em;
@@ -287,21 +282,21 @@ padding: 0;
 
 .form-bottom p {
   display:flex;
-  margin: 0;
-  padding: 0;
+
   margin-left: 20px;
   font-size: 10px;
 }
 
 .form-button1 {
-  font-style:italic;
+  font-style: italic;
   width: 85%;
-  margin: 5px 0 15px 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .form-button1 p {
   font-size: 10; 
-  margin: 5px 0 0 0;
+  margin-top: 5px;
 }
 
 footer {
@@ -329,9 +324,4 @@ input {
   width: 100%;
   box-sizing: border-box;
   outline: none;
-}
-
-label {
-  margin: 0;
-  padding: 0;
 }
