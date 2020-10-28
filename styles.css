@@ -184,8 +184,9 @@ form {
   background-color: white;
   width: 380px;
   height: 600px;
-  margin: 10px;
+  margin: 10px 10px 0 10px;
   border: solid;
+  border-bottom: transparent;
   border-width: 1px;
   border-color: darkgray;
   box-sizing: border-box;
